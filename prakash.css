@@ -1,0 +1,85 @@
+body{
+	background-color:navy;
+	background-image: url("image.png");
+}
+article{
+	 color:red;
+	
+	margin-bottom:5px;
+}
+
+header{
+	color: red;
+    text-align:center;
+	font-size:15px;	
+	
+	
+}
+h2{
+	color:red	;
+	font-style:italic;
+	font-size:20px;
+	padding-left:5px;
+	
+}
+#a{
+	text-align:left;
+
+}
+p{
+	color:gold;
+	font-size:20px;	
+	
+}
+footer{
+	color:red;
+	font-style:italic;
+	font-size:20px;
+	text-align:center;
+}
+.section-header{
+padding-bottom:13px;
+}
+.aside-header{
+	background-color:black;
+	padding-top:2px;
+	color: green;
+	padding-right:5px;
+	padding-bottom:10px;
+	margin-bottom:10px;	
+}
+.a1:hover,.a1:active {font-size: 150%;}	
+img {
+	
+	width: 200px;
+	height: 200px;
+		position: absolute;
+		right: 0;	
+}
+div{
+	text-align: center;
+}
+ .nav{
+	text-align: right;
+
+	float: left;
+	display: inline;
+	font-size: 25px;
+}
+a {
+    font-size: 20px;
+}
+#con{
+	background-color: aqua
+}
+#abc{
+	color:yellow	;	
+	text-align: center;
+	font-size: 30px;
+}
+ol{
+	color:gold;
+}
+form{
+	text-align: center;
+}
