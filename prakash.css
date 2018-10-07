@@ -2,11 +2,7 @@ body{
 	background-color:navy;
 	background-image: url("image.png");
 }
-article{
-	 color:red;
-	
-	margin-bottom:5px;
-}
+
 
 header{
 	color: red;
@@ -15,6 +11,10 @@ header{
 	
 	
 }
+#b{
+	color: red;
+	text-align: center
+}
 h2{
 	color:red	;
 	font-style:italic;
@@ -22,8 +22,12 @@ h2{
 	padding-left:5px;
 	
 }
+form{
+	padding: 20px;
+}
 #a{
 	text-align:left;
+	color:white;
 
 }
 p{
@@ -56,9 +60,7 @@ img {
 		position: absolute;
 		right: 0;	
 }
-div{
-	text-align: center;
-}
+
  .nav{
 	text-align: right;
 
@@ -82,4 +84,20 @@ ol{
 }
 form{
 	text-align: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	color: yellow;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color:blue;
 }
